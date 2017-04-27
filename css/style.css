@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top_menu{
+    height: 50px;
+    background: grey;
+    display: flex;
+}
+.left_top_menu{
+    height: 50px;
+    width: 85%;
+    background: gray;
+    display: flex;
+    justify-content: flex-end;
+}
+.right_top_menu{
+    height: 50px;
+    width: 15%;
+    background: dimgray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu_button{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    margin-left: 10px;
+    transition: 1s;
+    color: whitesmoke;
+  
+}
+.menu_ssulku{
+      text-decoration: inherit;
+    color: whitesmoke;
+}
+.menu_ssulku:hover{
+      text-decoration: inherit;
+    color: dimgray;
+}
+.menu_button:hover{
+ background: white;
+     color: dimgray;
+}
+.menu_button_dostavka{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    padding-top: 5px;
+    margin-left: 10px;
+    color: whitesmoke;
+    transition: 1s;
+}
+.menu_button_dostavka:hover{
+    background: white;
+    color: dimgray;
+}
+#menu_right_input{
+    height: 30px;
+    width: 100px;
+    background: dimgray;
+    border: none;
+}
+#menu_right_icons{
+    font-size: 15px;
+    color: whitesmoke;
+    
+    
+}
+::-webkit-input-placeholder{
+    color: red;
+}
+/*
+input::-webkit-input-placeholder{
+    color: red;
+}*/
+
+/*navigacijne menu*/
